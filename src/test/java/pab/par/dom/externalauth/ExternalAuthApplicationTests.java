@@ -1,4 +1,4 @@
-package pab.par.dom.externalAuth;
+package pab.par.dom.externalauth;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package pab.par.dom.externalAuth.service;
+package pab.par.dom.externalauth.service;
 
 import java.util.Map;
 
@@ -20,7 +20,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Controller
 @RequestMapping("/user")
-public class SampleController {
+public class UserInfoController {
 
   @Autowired
   private OAuth2AuthorizedClientService authorizedClientService;
