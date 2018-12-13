@@ -12,8 +12,17 @@ Demo project for Spring Boot to show a PoC of how external authentication provid
 
 #### Quick test
 
-1 - Run the app
+1 - Run the app (from an IDE or using a command line)
 
-** if you use Maven to run the app remember to specify the _ID_ and _SECRET_ properties: `mvn spring-boot:run -Dspring-boot.run.arguments=--spring.security.oauth2.client.registration.google.client-id=[YOUR-CLIENT-ID],--spring.security.oauth2.client.registration.google.client-secret=[YOUR-CLIENT-SECRET]` )
+
+>**NOTE: ** 
+>if you use Maven to run the app remember to specify the ID and SECRET properties:
+
+>`mvn spring-boot:run -Dspring-boot.run.arguments=--spring.security.oauth2.client.registration.google.client-id=[YOUR-CLIENT-ID],--spring.security.oauth2.client.registration.google.client-secret=[YOUR-CLIENT-SECRET]`
 
 2 - In your browser go to `http://localhost:8081/externalauth/welcome` 
+
+
+## References
+
+* https://www.baeldung.com/spring-security-5-oauth2-login
