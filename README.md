@@ -10,7 +10,7 @@ Demo project for Spring Boot to show a PoC of how external authentication provid
 * In _application-googleauth.properties_ file replace the _${GOOGLE_CLIENT_ID}_ and _${GOOGLE_CLIENT_SECRET}_ with your custom ID and SECRET obtained in the previous step. Or **MUCH BETTER** create in your machine two Environment Variables called _GOOGLE_CLIENT_ID_ and _GOOGLE_CLIENT_SECRET_ and assign them the values.
 
 
-## Quick test
+#### Quick test
 
 1 - Run the app
 
